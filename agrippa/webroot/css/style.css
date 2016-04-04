@@ -1,0 +1,95 @@
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background-color: black;
+    background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_embroidery.png);
+    background-size: auto;
+
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper {
+    /*background-color: indigo;*/
+    width: 950px;
+    margin: auto;
+    margin-top: 0;
+}
+
+#header {
+    background-color: black;
+    overflow: auto;
+}
+
+#header .site-title {
+    color: orange;
+    display: block;;
+    padding-top: .5em;
+    font-family: 'Short Stack';
+    font-size: 32px;
+    padding-left: 3em;
+}
+
+#header img {
+/*    /*display: inline;*/
+    float: left;
+    width: 200px;
+}
+
+#footer {
+    padding: .1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+}
+
+.nb-plain {
+    background-color: #303030;
+    display: flex;
+    padding: 1em;
+}
+
+.nb-plain li {
+    display: inline;
+    flex: 1;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.nb-plain a {
+    color: white;
+    text-decoration: none;
+}
+
+.nb-plain a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+ul.nb-plain li.selected a {
+    color: orange;
+}
+
+#main {
+    background-color: beige;
+    padding: 1em;
+    min-height: 30em;
+    padding-top: 1px;
+}
+
+#main h1 {
+    text-align: center;
+    border-bottom: 1px dashed orange;
+}
+
+#footer {
+    background-color: orange;
+}
